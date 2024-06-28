@@ -1,5 +1,6 @@
 import streamlit as st
 from emailparsersummarizer import major
+#ui
 st.title("Email Parser and Summarizer")
 form = st.form(key="my_form")
 email = form.text_input(label="Email ID")
